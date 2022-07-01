@@ -7,13 +7,12 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
-  padding: 4px;
-
+  padding: 8px;
 }
 
 .title {
   background: #e3f4ff;
-  margin: 0px;
+  margin: 0px 0px 8px 0px;
   border: 4px solid white;
   padding: 8px;
   font-size: 16px;
@@ -21,14 +20,14 @@ body {
 
 .content {
   background: #e3f4ff;
-  margin: 4px;
+  margin: 0px 0px 8px 0px;
   /* border: 4px solid white; */
   padding: 16px 8px;
 }
 
 .button-container {
   background: #e3f4ff;
-  margin: 8px 4px;
+  /* margin: 8px 4px; */
   
   /* border: 4px solid white; */
   padding: 8px;
@@ -38,7 +37,7 @@ body {
 button {
   background: white;
   border: 1px solid #eee;
-  margin: auto;
+  margin: 0 auto;
   padding: 8px 24px;
-  text-align: center;
+  display: block;
 }

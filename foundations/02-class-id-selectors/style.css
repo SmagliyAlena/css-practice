@@ -1,0 +1,18 @@
+p {
+    background-color: pink;
+}
+
+.Number_two {
+    color: blue;
+    font-size: 36px;
+}
+
+.Number_three {
+    font-size: 24px;
+}
+
+.Number_four {
+    background-color: rgb(104, 197, 45);
+    font-size: 24px;
+    font-weight: bold;
+}
