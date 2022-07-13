@@ -17,7 +17,7 @@ body {
 }
 
 .sidebar {
-  width: 300px;
+  min-width: 300px;
   background: royalblue;
 }
 
@@ -25,4 +25,86 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+
+/* my solution */
+body {
+  
+}
+
+.index-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  font-size: 32px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+
+}
+
+
+.sidebar a,
+.sidebar a:link,
+.sidebar a:hover,
+.sidebar a:active {
+  color: white;
+}
+
+.sidebar ul{
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  font-size: 24px;
+  padding: 16px;
+}
+
+.sidebar li{
+  margin-bottom: 16px;
+}
+
+.sidebar a {
+  text-decoration: none;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+
+
+}
+
+.card {
+  width: 300px;
+  padding: 16px;
+  margin: 32px;
+
+  height: 300px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex: 1;
+
+  
+}
+
+
+.footer {
+  display: flex;
+  margin: 0;
+  margin-top: auto;
+  justify-content: center;
+  align-items: center;
 }
